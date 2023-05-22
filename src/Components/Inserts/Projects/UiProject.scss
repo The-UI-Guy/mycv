@@ -1,0 +1,47 @@
+.ProjectCard {
+    background-color: white;
+    border-radius: 10px;
+
+    border: 1px solid #e4e4e4;
+  
+    .Header {
+    
+        
+        .content {
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+
+            .ant-tag {
+                width:fit-content;
+            }
+    
+            .ant-btn {
+                width: fit-content;
+                color: white !important;
+                background: black;
+                border: 0;
+            }
+    
+            
+           
+    
+            p {
+                margin: 1.625rem 0;
+                color: #121111;
+            }
+    
+    
+        }
+    
+        .image {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+            overflow: hidden;
+        }
+    }
+}

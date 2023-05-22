@@ -1,0 +1,9 @@
+.MatchLogoContainer {
+  max-width: 200px;
+}
+.MatchLogoContainer .MatchLogo {
+  width: 100%;
+}
+.MatchLogoContainer .MatchHeight {
+  max-height: 58px;
+}/*# sourceMappingURL=Styles.css.map */

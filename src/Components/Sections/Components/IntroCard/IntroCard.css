@@ -1,0 +1,58 @@
+.IntroCard {
+  border: solid 1px #efefef;
+  padding: 24px;
+  border-radius: 10px;
+}
+.IntroCard .Column1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.IntroCard .Column1 svg {
+  width: 100px;
+}
+.IntroCard .Column1 .ant-tag {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.IntroCard .Column1 .LogoContainer {
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+}
+.IntroCard .Column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.IntroCard .Column2 .ant-btn {
+  padding: 24px;
+  border-right: solid 1px #efefef;
+  border-left: solid 1px #efefef;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 100px;
+  height: 100px;
+}
+.IntroCard .Column2 .ant-btn svg {
+  width: 60px !important;
+  display: inline-block;
+}
+.IntroCard .Column3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.IntroCard .Column3 .ant-tag {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.IntroCard .Column3 .LogoContainer {
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}/*# sourceMappingURL=IntroCard.css.map */

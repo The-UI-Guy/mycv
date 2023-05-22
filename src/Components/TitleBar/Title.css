@@ -1,0 +1,38 @@
+.TitleBar {
+  display: flex;
+  flex-direction: row;
+}
+.TitleBar .TitleAndTags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.TitleBar .TitleAndTags .greeting span {
+  color: #29292B;
+}
+.TitleBar .TitleAndTags .icon svg {
+  margin-right: 8px;
+  font-size: 22px;
+}
+.TitleBar .TitleAndTags .Tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 24px;
+}
+.TitleBar .TitleAndTags .Tags .ant-tag {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.TitleBar .subtitle {
+  padding-left: 23px;
+  padding-top: 8px;
+  font-weight: 400 !important;
+  color: #29292B;
+}
+.TitleBar .Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-start;
+}/*# sourceMappingURL=Title.css.map */

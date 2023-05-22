@@ -1,0 +1,23 @@
+.doublesectionleft {
+  min-height: 400px;
+  padding: 0 50px;
+}
+.doublesectionleft .column1 {
+  padding: 0 100px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.doublesectionleft .column1 h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.doublesectionleft .column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.doublesectionleft .column2 img {
+  width: 100%;
+}/*# sourceMappingURL=DoubleSectionLeft.css.map */

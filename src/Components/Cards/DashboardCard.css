@@ -1,0 +1,37 @@
+.DashboardCard {
+  background: #F3F6F9;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 6px;
+  border: solid 1px #e4e4e4;
+  padding: 0.5rem 0 0.5rem 1rem;
+  text-decoration: none;
+  transition: ease-in-out 0.3s;
+}
+.DashboardCard .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+.DashboardCard .content h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.DashboardCard .content p {
+  color: #75757A;
+  margin-bottom: 0;
+}
+.DashboardCard .image {
+  text-align: right;
+}
+.DashboardCard .image img {
+  width: 100%;
+}
+.DashboardCard:hover {
+  transition: ease-in-out 0.3s;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.15);
+  border: solid 1px #0C41FF;
+}/*# sourceMappingURL=DashboardCard.css.map */

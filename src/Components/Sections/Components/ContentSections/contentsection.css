@@ -1,0 +1,40 @@
+.ImageFull {
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.ImageContained .ant-col div {
+  padding: 0 1.5rem;
+  border-radius: 10px;
+}
+.ImageContained .ant-col div img {
+  width: 100%;
+}
+.ImageContained .ant-col div svg {
+  width: 100%;
+}
+
+.SingleSection {
+  padding: 1.5rem;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.SingleSection .ant-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.SingleSection .ant-row .ant-col {
+  max-width: 900px;
+}
+.SingleSection .ant-row .ant-col .Copy p {
+  margin-top: 22px;
+  font-size: 16px;
+  color: #121111;
+}/*# sourceMappingURL=contentsection.css.map */

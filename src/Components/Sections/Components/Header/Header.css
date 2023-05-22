@@ -1,0 +1,32 @@
+.HeaderCalendar {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, #061341 0%, #262AD8 100%);
+  background: -webkit-linear-gradient(90deg, #061341 0%, #262AD8 100%);
+}
+.HeaderCalendar .content {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.HeaderCalendar .content .ant-btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white !important;
+  background: black;
+  border: 0;
+}
+.HeaderCalendar .content h1, .HeaderCalendar .content p {
+  color: white;
+}
+.HeaderCalendar .content p {
+  margin: 1.625rem 0;
+  opacity: 0.8;
+}
+.HeaderCalendar .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}/*# sourceMappingURL=Header.css.map */

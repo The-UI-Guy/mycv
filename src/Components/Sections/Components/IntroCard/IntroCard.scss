@@ -1,0 +1,63 @@
+.IntroCard {
+    border: solid 1px #efefef;
+    padding: 24px;
+    border-radius: 10px;
+    .Column1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        svg {
+            width: 100px;
+        }
+        .ant-tag {
+            width: fit-content;
+        }
+
+        .LogoContainer {
+            min-height: 110px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+    }
+
+    .Column2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .ant-btn{
+            padding: 24px;
+            border-right: solid 1px #efefef;
+            border-left: solid 1px #efefef;
+            width: fit-content;
+            width: 100px;
+            height: 100px;
+
+            svg {
+                width: 60px !important;
+                display: inline-block;
+            }
+        }
+    }
+
+    .Column3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .ant-tag {
+            width: fit-content;
+        }
+
+        .LogoContainer {
+        
+            min-height: 110px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}

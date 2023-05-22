@@ -1,0 +1,15 @@
+.AboutInsert .intro {
+  display: flex;
+  flex-direction: column;
+}
+.AboutInsert .intro h5 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px 0;
+}
+.AboutInsert .intro ul {
+  padding-left: 20px;
+}
+.AboutInsert .intro ul li {
+  font-size: 16px;
+}/*# sourceMappingURL=AboutInsert.css.map */

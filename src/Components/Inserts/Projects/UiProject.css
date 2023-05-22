@@ -1,0 +1,34 @@
+.ProjectCard {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #e4e4e4;
+}
+.ProjectCard .Header .content {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.ProjectCard .Header .content .ant-tag {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.ProjectCard .Header .content .ant-btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white !important;
+  background: black;
+  border: 0;
+}
+.ProjectCard .Header .content p {
+  margin: 1.625rem 0;
+  color: #121111;
+}
+.ProjectCard .Header .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+}/*# sourceMappingURL=UiProject.css.map */

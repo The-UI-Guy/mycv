@@ -1,0 +1,28 @@
+#fullpage #section1 {
+  color: #fff;
+  background: pink;
+}
+#fullpage .section {
+  height: 100vh;
+}
+#fullpage .fp-section {
+  text-align: center;
+}
+
+.carouselCalendar {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(94deg, rgb(2, 0, 36) 0%, rgb(38, 98, 216) 100%);
+}
+.carouselCalendar .carousel-caption {
+  text-align: left;
+}
+.carouselCalendar .carousel-caption h3, .carouselCalendar .carousel-caption p {
+  color: white;
+}
+
+.carousel {
+  height: 400px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption {
+  position: unset;
+}/*# sourceMappingURL=Gallery.css.map */

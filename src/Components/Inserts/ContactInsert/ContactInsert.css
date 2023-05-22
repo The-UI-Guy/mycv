@@ -1,0 +1,30 @@
+.ContactInsert {
+  padding: 32px;
+}
+.ContactInsert h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.ContactInsert .contactlinks {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+}
+.ContactInsert .contactlinks .ant-typography {
+  padding: 8px 0;
+  color: #121111;
+  text-decoration: none;
+  font-size: 16px;
+}
+.ContactInsert .contactlinks .ant-typography svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.ContactInsert .contactlinks .ant-typography span {
+  color: #0C41FF;
+  font-weight: 600;
+}
+.ContactInsert .cards .DashboardCard {
+  margin-bottom: 24px;
+}/*# sourceMappingURL=ContactInsert.css.map */

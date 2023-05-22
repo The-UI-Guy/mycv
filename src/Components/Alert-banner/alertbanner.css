@@ -1,0 +1,30 @@
+.AlertBanner {
+  background-color: #1B1B1D;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+.AlertBanner .tag {
+  background: #F01D39;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.AlertBanner .tag svg {
+  margin-right: 4px;
+}
+.AlertBanner .tag span {
+  color: white;
+}
+.AlertBanner .link {
+  padding: 0 8px;
+}/*# sourceMappingURL=alertbanner.css.map */

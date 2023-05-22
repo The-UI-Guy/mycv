@@ -1,0 +1,64 @@
+.ExperienceCard {
+  margin: 24px 0 32px 0;
+  border-radius: 10px;
+  padding: 8px;
+}
+.ExperienceCard .TitleRow .JobTitle {
+  margin: 0;
+  color: #111112;
+  font-size: 20px;
+  font-weight: 600;
+}
+.ExperienceCard .TitleRow .Company {
+  margin: 0;
+  color: #111112;
+  font-weight: 600;
+  font-size: 16px;
+}
+.ExperienceCard .TitleRow .ant-tag {
+  margin: 16px 0;
+}
+.ExperienceCard .TitleRow .ColumnLeft {
+  text-align: right;
+}
+.ExperienceCard .TitleRow .ColumnLeft .dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.ExperienceCard .TitleRow .ColumnLeft .dates p {
+  color: #111112;
+  font-weight: 600;
+  font-size: 16px;
+  flex-grow: 1;
+}
+.ExperienceCard .TitleRow .ColumnLeft .dates .Icon {
+  margin-left: 8px;
+  width: 24px;
+  height: 24px;
+}
+.ExperienceCard .responisbilities {
+  margin-top: 16px;
+  color: #111112;
+  font-size: 14px;
+  font-weight: 600;
+}
+.ExperienceCard .List .ant-list {
+  padding-top: 0;
+  background-color: #F5F5F5;
+  border: solid 1px #e4e4e4;
+  border-radius: 6px;
+  margin: 8px 0;
+  width: 100%;
+  overflow: hidden;
+}
+.ExperienceCard .List .ant-list .ant-list-item {
+  -webkit-border-after: none;
+          border-block-end: none;
+  border-bottom: solid 1px #e4e4e4;
+  width: 100%;
+  padding: 6px 16px;
+}
+.ExperienceCard .List .ant-list .ant-list-item:last-of-type {
+  border: none;
+}/*# sourceMappingURL=ExperienceCard.css.map */

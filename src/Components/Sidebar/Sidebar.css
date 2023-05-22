@@ -1,0 +1,93 @@
+.Sidebar {
+  height: 100vh;
+  border-right: solid 1px #E4E4E4;
+  max-width: 231px;
+}
+.Sidebar .LogoHeader {
+  display: inline-block;
+  padding: 16px;
+}
+.Sidebar .LogoHeader .sidebarTitle {
+  font-size: 26px !important;
+  font-weight: 400 !important;
+  margin-bottom: 8px;
+}
+.Sidebar .LogoHeader .sidebarJobTitle {
+  padding: 4px;
+}
+.Sidebar .LogoHeader svg {
+  width: 100px;
+}
+.Sidebar .menuContainer {
+  padding: 8px;
+}
+.Sidebar .menuContainer .Link {
+  display: block;
+  padding: 10px 16px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #111112;
+  border-radius: 6px;
+}
+.Sidebar .menuContainer .Link svg {
+  margin-right: 11px;
+  width: 20px;
+  height: 20px;
+}
+.Sidebar .menuContainer .Link:hover {
+  background-color: #F5F5F5;
+}
+.Sidebar .menuContainer .active {
+  background-color: #F5F5F5;
+  color: #0C41FF;
+  font-weight: 600;
+}
+.Sidebar .menuContainer .project {
+  border: none !important;
+  background: none;
+  border-bottom: none !important;
+}
+.Sidebar .menuContainer .project .ant-collapse-item {
+  border-bottom: 0 !important;
+}
+.Sidebar .menuContainer .project .ant-collapse-item .ant-collapse-header {
+  padding: 10px 16px;
+}
+.Sidebar .menuContainer .project .ant-collapse-item .ant-collapse-header .ant-collapse-expand-icon {
+  -webkit-padding-end: 0;
+          padding-inline-end: 0;
+  margin-right: 11px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.Sidebar .menuContainer .project .ant-collapse-item .ant-collapse-header .ant-collapse-expand-icon svg {
+  width: 20px;
+  height: 20px;
+}
+.Sidebar .menuContainer .project .ant-collapse-item .ant-collapse-header-text {
+  color: #111112;
+}
+.Sidebar .ant-menu {
+  background: transparent;
+  -webkit-border-end: none;
+          border-inline-end: none;
+}
+.Sidebar .ant-menu .ant-menu-item {
+  border-radius: 6px;
+  font-weight: 400;
+  transition: ease-in-out 0.1s;
+}
+.Sidebar .ant-menu .ant-menu-item:hover {
+  font-weight: 600;
+}
+.Sidebar .ant-menu .ant-menu-item .ant-menu-item-icon {
+  font-size: 20px;
+}
+.Sidebar .ant-menu .ant-menu-item-selected {
+  background-color: #F5F5F5;
+  color: #333333;
+}
+.Sidebar .ant-menu .ant-menu-item-selected .ant-menu-title-content {
+  color: #0C41FF;
+  font-weight: 500;
+}/*# sourceMappingURL=Sidebar.css.map */

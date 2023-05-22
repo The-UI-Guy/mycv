@@ -1,0 +1,15 @@
+.ImageContained .title {
+  padding: 40px !important;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.ImageContained .title h2 {
+  font-size: 24px;
+  color: #121111;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.ImageContained .title p {
+  color: #121111;
+}/*# sourceMappingURL=ImageContained.css.map */

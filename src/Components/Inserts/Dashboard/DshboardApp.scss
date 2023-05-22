@@ -1,0 +1,140 @@
+.titlecta {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+    padding-bottom: 16px;
+
+    .TitleBar {
+        width: 100%;
+        .ant-col-12 {
+            height: 70px;
+        }
+    }
+
+    .DashboardCard {
+        min-width: 200px !important;
+        width: 300px !important;
+        align-content: space-between;
+        padding: 0 0 0 16px;
+        height: 70px;
+        overflow: hidden;
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-grow: 1;
+            h2 {
+                font-size: 18px;
+            }
+            p{
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+        }
+
+        .image  {
+            flex-grow: 1;
+            text-align: right;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            svg {
+                height: 70px;
+            }
+        }
+    }
+}
+.DashboardApp {
+
+   
+.column1 {
+
+   
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}    
+.column2 {
+    padding: 2rem 2rem !important;
+    .ant-typography {
+        font-size: 1.625rem;
+        color: #111112;
+        font-weight: 600;
+    
+        span {
+            color: #0C41FF !important;
+        }
+    }
+   .aboutCompany {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 1.5rem;
+  
+    ol {
+        list-style-type: none;
+        padding-left: 0;
+        padding-top: 16px;
+       
+        li{
+            font-size: 1rem;
+            font-weight: 400;
+            color:#111112 ;
+            line-height: 1.5rem;
+            margin-bottom: 10px;
+            padding:0 16px 0 0;
+            display: flex;
+            flex-direction: row;
+      
+            
+
+           .number {
+            background-color: #EDEEF2;
+            min-width: 24px;
+            height: 24px;
+            text-align: center;
+            border-radius: 999px;
+            font-weight: 600;
+            margin-right: 8px;
+            
+            }
+        }
+    }
+    .customOl {
+        counter-reset: step-counter calc(var(--start) - 6);
+     
+        li {
+            &:before {
+                background-color: #EDEEF2;
+                width: 24px;
+                height: 24px;
+                text-align: center;
+                border-radius: 999px;
+                font-weight: 600;
+                margin-right: 8px;
+                content: counter(step-counter, "2");
+                }
+        }
+    }
+   }
+   .mySkillSet {
+  
+    padding-top: 1.5rem;
+    .skillsList {
+        padding-top: 1.5rem;
+        .skillListItem {
+            h4 {
+                font-size: 18px !important;
+                font-weight: 600;
+                margin-bottom: 8px;
+            }
+            p {
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5rem;
+            }
+        }
+    }
+   }
+
+}
+}

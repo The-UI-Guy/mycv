@@ -1,0 +1,181 @@
+@import 'variables';
+
+.AppMain {
+    padding-top: 40px;
+    
+   
+    display: flex;
+    flex-direction: row;
+
+    .Body {
+        flex-grow: 1;
+        padding-left: 256px;
+        
+    }
+
+    .Sidebar {
+     min-width: 240px;  
+     position: fixed; 
+    }
+}
+
+.CardStyle1 {
+    border-radius: 10px;
+    padding: 24px;
+    border: solid 1px #efefef02;
+}
+
+.PageGrid{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+//Spacing 
+.HorizontalRow-16 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+
+//overrides
+
+.ant-menu {
+    border-inline-end: none !important;
+}
+
+.ant-list-item-meta-title {
+    font-weight: 600;
+}
+
+.ant-list-item-meta-description {
+    color: #343f51 !important;
+}
+
+.ant-title {
+    color: #333333;
+}
+
+.ant-divder {
+    &:before {
+       width: 5px !important;
+    }
+}
+
+
+
+
+//to move to Components
+
+.TitleBar {
+    background: white;
+
+    border-radius: 10px;
+   
+  
+ 
+    h1 {
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.btnblack {
+    background-color: black;
+    color: white;
+
+    span {
+        color: white;
+    }
+
+    svg {
+        color: white;
+    }
+}
+
+.TableOfContent {
+    border: solid 1px #e4e4e4;
+    border-radius: 10px;
+    padding: 16px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .ant-button {
+        span {
+            color: blue;
+        }
+    }
+}
+
+.Insert {
+border-radius: 10px;
+padding: 16px;
+border: solid 1px #E4E4E4;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.secondarynav {
+   
+.ant-anchor {
+    border: solid 1px #e4e4e4;
+    padding: 16px;
+    border-radius: 6px;
+    width: 198px;
+    position: fixed;
+    &:before {
+        content: none !important;
+    }
+
+    .ant-anchor-link {
+        display: block;
+        padding: 4px 16px;
+        font-size: 14px;
+        text-decoration: none;
+        color: #111112;
+        border-radius: 6px;
+        
+        
+        transition: ease-in-out all 0.3s;
+
+        a {
+            text-decoration: none;
+        }
+
+        &:hover {
+            background: #f5f5f5;
+        }
+
+      
+
+    }
+    .ant-anchor-link-active {
+        background: #f5f5f5;
+        color: #0C41FF;
+        font-weight: 600;  
+    }
+
+    &:before {
+        content: none;
+    }
+  
+}
+}
+

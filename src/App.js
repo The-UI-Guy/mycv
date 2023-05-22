@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Col, Menu, Row, Switch } from 'antd';
+import { Sidebar, Body, Dashboard, ExperienceSection, AlertBanner } from './Components';
 
-function App() {
+import './Client-overlay.css';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { useState } from 'react'
+import { FaOctopusDeploy, FaPoll } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div className="AppMain">
+     
+   <Sidebar />
+    <Body />
+  
+  </div>
+
+  )
+
+ 
+    };
+
 
 export default App;

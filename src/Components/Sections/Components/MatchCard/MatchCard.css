@@ -1,0 +1,31 @@
+.MatchCard {
+  background: red;
+  background-image: url(../../../Images/AppBg.jpg);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  min-width: 384px;
+  min-height: 688px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 24px;
+}
+.MatchCard .text {
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+}
+.MatchCard .Button {
+  padding: 10px 20px;
+  background: white;
+  color: #353f51;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 999px;
+  margin-bottom: 100px;
+}/*# sourceMappingURL=MatchCard.css.map */

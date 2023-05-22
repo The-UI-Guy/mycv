@@ -1,0 +1,66 @@
+.IntroCard {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 0 !important;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: white;
+
+
+    .Cover {
+        background-image: url('https://www.onthebeach.co.uk/static/images/free_lounge_fast_track/chevron_long.svg');
+        min-height: 200px; 
+        display: flex;
+        flex-direction: column; 
+        justify-content: end; 
+        padding: 16px;
+        gap: 24px;
+
+       
+
+        .CoverTitle {
+            color: white;
+            font-weight: 800;
+            font-style: italic;
+            font-size: 55px;
+        }
+    
+    }
+
+    .ant-divider {
+        margin: 0;
+    }
+
+
+    .Title {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding:0 16px;
+        
+       
+        .Title1 {
+            color: #343f51;
+            margin: 0;
+        }
+
+        .Title2 {
+            color: #343f51;
+            margin: 0;
+        }
+    }
+
+    .Content {
+        padding: 0 16px;
+
+        .Break {
+            padding-top: 24px;
+            .ListTitle {
+                font-weight: 800;
+                font-style: italic;
+                color: #343f51;
+            }
+        }
+    }
+}

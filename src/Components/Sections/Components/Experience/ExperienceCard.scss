@@ -1,0 +1,94 @@
+.ExperienceCard {
+    
+    margin: 24px 0 32px 0;
+    border-radius: 10px;
+    padding: 8px;
+
+    .TitleRow {
+        
+
+        .JobTitle {
+            margin: 0;
+            color: #111112;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .Company {
+            margin: 0;
+            color: #111112;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .ant-tag {
+            margin: 16px 0;
+        }
+
+        .ColumnLeft {
+            text-align: right;
+
+            .dates {
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+                p {
+                color: #111112;
+                font-weight: 600;
+                font-size: 16px;
+                flex-grow: 1;
+
+                }
+                .Icon {
+                    margin-left: 8px;
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+
+    }
+
+
+
+    .responisbilities {
+        margin-top: 16px;
+        color: #111112;
+            font-size: 14px;
+            font-weight: 600;
+    }
+
+  
+    
+    .List {
+       
+
+        .ant-list {
+
+            padding-top: 0;
+            background-color: #F5F5F5;
+            border: solid 1px #e4e4e4;
+            border-radius: 6px;
+            margin: 8px 0;
+            width: 100%;
+         
+            overflow: hidden;
+            .ant-list-item {
+                border-block-end: none;
+                border-bottom: solid 1px #e4e4e4;
+                width: 100%;
+                padding: 6px 16px;
+
+                &:last-of-type {
+                    border: none;
+
+                }
+            }
+
+        }
+
+        
+    }
+
+}

@@ -1,0 +1,41 @@
+.HeaderCalendar {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #061341 0%, #262AD8 100%);
+    background: -moz-linear-gradient(90deg, #061341 0%, #262AD8 100%);
+    background: -webkit-linear-gradient(90deg, #061341 0%, #262AD8 100%);
+
+    
+    .content {
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+
+        .ant-btn {
+            width: fit-content;
+            color: white !important;
+            background: black;
+            border: 0;
+        }
+
+        
+        h1, p {
+            color: white;
+        }
+
+        p {
+            margin: 1.625rem 0;
+            opacity: 0.8;
+        }
+
+
+    }
+
+    .image {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+}

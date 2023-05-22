@@ -1,0 +1,53 @@
+.TitleBar {
+    display: flex;
+    flex-direction: row;
+   
+ 
+
+    .TitleAndTags {
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+
+        .greeting {
+            span {
+                color: #29292B;
+            }
+        }
+
+        .icon {
+            svg {
+                margin-right: 8px;
+                font-size: 22px;
+            }
+        }
+        .Tags {
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            margin-left: 24px;
+
+
+        .ant-tag {
+            height: fit-content;
+       
+        }
+
+        }
+
+    }
+
+    .subtitle {
+        padding-left: 23px;
+        padding-top: 8px;
+        font-weight: 400 !important;
+        color: #29292B;
+    }
+
+    .Buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: end ;
+        align-items: flex-start;
+    }
+}
