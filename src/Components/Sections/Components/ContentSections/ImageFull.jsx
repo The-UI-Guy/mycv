@@ -17,8 +17,8 @@ const ImageFull = ({imagefull, span}) => {
     
     <Row>
     <Col span={span}>
-    <div className="ImageFull" style={{ backgroundImage: `url(${imagefull})` }}>
-     
+    <div className="ImageFull">
+    {imagefull}
     </div>
     </Col>
     </Row>

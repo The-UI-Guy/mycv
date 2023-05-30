@@ -14,7 +14,7 @@ const ImageContained = ({image, span, title, id, body, tag, color }) => {
         {tag && (<Tag color={color}>{tag}</Tag>)}
         </div>
     <div>
-      {image && (<img src={image} />)}
+      {image}
     </div>
     </Col>
     </Row>

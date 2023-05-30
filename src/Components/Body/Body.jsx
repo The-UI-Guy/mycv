@@ -8,7 +8,7 @@ import About from '../Sections/About';
 import Contact from '../Sections/Contact';
 import ProjectCalendar from '../Sections/ProjectCalendar';
 import ProjectHub from '../Sections/ProjectHub';
-import { Calendar } from 'antd';
+import { Calendar, Row } from 'antd';
 import Projects from '../Sections/Projects';
 import DashboardApp from '../Inserts/Dashboard/DashboardApp';
 import SkillsInsert from '../Inserts/Skills/SkillsInsert';
@@ -18,7 +18,7 @@ import ContactInsert from '../Inserts/ContactInsert/ContactInsert';
 import UiProject from '../Inserts/Projects/UiProject';
 
 const Body = () => {
-  return <div className='Body'>
+  return <Row className='Body'>
   <Routes>
     <Route path="/" element={<DashboardApp/>} />
     <Route path="/experience" element={<ExperienceInsert/>} />
@@ -33,7 +33,7 @@ const Body = () => {
     <Route path="/About" element={<AboutInsert/>} />
     <Route path="/Contact" element={<ContactInsert/>} />
   </Routes>
-</div>
+</Row>
 }
 
 export default Body

@@ -1,8 +1,8 @@
 import { Anchor, Button, Carousel, Col, Row, Tag } from 'antd'
 import React from 'react'
 import './UiProject.css'
-import Header from '../../../Gallery/uiguy/header.svg'
-import Img1 from '../../../Gallery/uiguy/1.svg'
+import Header from '../../../Gallery/uiguy/UIHeader.jsx'
+import Img1 from '../../../Gallery/uiguy/UIOne.jsx'
 import Img2 from '../../../Gallery/uiguy/2.svg'
 import Img3 from '../../../Gallery/uiguy/3.svg'
 import Img4 from '../../../Gallery/uiguy/4.svg'
@@ -15,6 +15,8 @@ import SingleSection from '../../Sections/Components/ContentSections/SingleSecti
 import { FaFigma } from 'react-icons/fa'
 import { BiVial } from 'react-icons/bi'
 import TitleBar from '../../TitleBar/TitleBar'
+import UIOne from '../../../Gallery/uiguy/UIOne.jsx'
+import UIHeader from '../../../Gallery/uiguy/UIHeader.jsx'
 
 
 
@@ -26,6 +28,7 @@ import TitleBar from '../../TitleBar/TitleBar'
     
     <Row gutter={16}>
      <Col span={24}>
+      
      <TitleBar 
      title={'The UI Guy Design system'} 
      subtitle={'Figma and React component library'} 
@@ -57,7 +60,7 @@ import TitleBar from '../../TitleBar/TitleBar'
               
               </Col>
               <Col span={14} className="image">
-              <img src={Header} />
+              <UIHeader />
               </Col>
             </Row>
           </div>
@@ -72,7 +75,7 @@ import TitleBar from '../../TitleBar/TitleBar'
         "
         />
           <ImageFull 
-        imagefull={Img1}
+        imagefull={<UIOne />}
         span="24"
         />
          <SingleSection 
